@@ -1,2 +1,2 @@
 # DownImg 
-Is a chrome Extension, built with Html,css and Javascript. Which can be used to download images from chrome to your local machine with just one click.
+DownImg is a Chrome extension built with HTML, CSS, and JavaScript. It enables you to download images from Chrome to your local machine with just one click. You can also download all images with a single click, or use the mouseover option to download images as well.
