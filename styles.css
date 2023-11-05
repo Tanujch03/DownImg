@@ -1,0 +1,17 @@
+#downloadImages,#downloadAll,#downloadMouseover{
+    background-color: rgb(54, 200, 249);
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+    border: none;
+    cursor: pointer;
+
+}
+body{
+    background-color: lightblue;
+    
+}
