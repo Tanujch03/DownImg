@@ -1,17 +1,58 @@
+
 #downloadImages,#downloadAll,#downloadMouseover{
     background-color: rgb(54, 200, 249);
     color: rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
     width: 90px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 5px;
     
     border: none;
     cursor: pointer;
+    font-size: xx-small;
+    font-family: "Poppins","sans-serif";
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    
 
 }
-body{
-    background-color: lightblue;
+
+#downloadImages:hover
+{
+    background-color: rgb(134, 225, 255);
+   
+
+
+}
+
+#downloadImages:active
+{
+    opacity: 0.7;
+   
+
+
+}
+#downloadAll:hover
+{
+    background-color: rgb(134, 225, 255);
+
+
+}
+
+#downloadAll:active
+{
+    opacity: 0.7;
+
+}
+
+#downloadMouseover:hover
+{
+    background-color: rgb(134, 225, 255);
+
+}
+
+#downloadMouseover:active
+{
+    opacity: 0.7;
     
 }
