@@ -6,4 +6,4 @@ DownImg is a Chrome extension built with HTML, CSS, and JavaScript. It enables y
 
 # Demo Video:
 
-https://clipchamp.com/watch/OgBHBjDYfcE
+https://github.com/Tanujch03/DownImg/blob/master/DownImg.mp4
