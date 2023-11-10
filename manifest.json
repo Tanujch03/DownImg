@@ -1,28 +1,36 @@
 {
-    "manifest_version": 2,
-    "name": "DownImg",
-    "version": "1.0",
-    "description": "Download images from a chrome.With just one click.",
-    "permissions": [
-      "activeTab",
-      "storage"
-    ],
-    "browser_action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "images/icon-24.png",
-        "48": "images/icon-48.png"
-    
-      }
-    },
-    "icons": {
-        "16": "images/icon-24.png",
-        "48": "images/icon-48.png"
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["content.js","downloadAll.js","downloadMouseover.js"]
-      }
-    ]
+  "manifest_version": 3,
+  "name": "DownImg",
+  "version": "1.0",
+  "description": "Download images from Chrome with just one click.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "downloads",
+    "activeTab",
+    "webNavigation",
+    "webRequest",
+    "cookies"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon-24.png",
+      "48": "images/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon-24.png",
+    "48": "images/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js", "rem.js", "content.js", "downloadAll.js", "downloadMouseover.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
   }
+}

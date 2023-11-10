@@ -28,7 +28,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         downloadImage(imageUrl, fileName);
 
         // Remove the click event listener after download
-        imgElement.removeEventListener("click", downloadImage);
+        imgElement.removeEventListener("click", arguments.callee);
       });
     }
   }

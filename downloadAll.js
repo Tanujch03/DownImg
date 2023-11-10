@@ -1,4 +1,4 @@
-// content.js
+// downloadAll.js
 
 // Handle the download button click in the popup
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
