@@ -27,7 +27,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["popup.js", "rem.js", "content.js", "downloadAll.js", "downloadMouseover.js"]
+      "js": ["popup.js","content.js", "downloadAll.js", "downloadMouseover.js"]
     }
   ],
   "background": {
