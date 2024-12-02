@@ -13,4 +13,4 @@ DownImg is a Chrome extension built with HTML, CSS, and JavaScript. It enables y
             
 </div>
 
-![evital-wrapper-er](https://github.com/user-attachments/assets/62d5ec78-14d4-4781-b2d5-05d5df03a8a5)
+
